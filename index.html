@@ -13,186 +13,188 @@
     <h1> CONSECUENCIAS DE LA CONTAMINACION </h1>
 </header>
 <style>
-    header {
-        background-color: rgb(0, 0, 0);
-        height: 100px;
-        border-radius: 10px;
-        text-align: center;
-        padding: 5px;
-        max-width: auto;
-        max-height: auto;
-    }
+    @media screen {
+        header {
+            background-color: rgb(0, 0, 0);
+            height: 100px;
+            border-radius: 10px;
+            text-align: center;
+            padding: 5px;
+            max-width: auto;
+            max-height: auto;
+        }
 
-    body {
-        margin: 0;
-        overflow: visible;
-        padding: 15px 15px;
-        text-align: justify;
-    }
+        body {
+            margin: 0;
+            overflow: visible;
+            padding: 15px 15px;
+            text-align: justify;
+        }
 
-    main {
-        display: flex;
-        flex: 1;
-        padding: 15px 15px;
-        gap: 15px;
-    }
+        main {
+            display: flex;
+            flex: 1;
+            padding: 15px 15px;
+            gap: 15px;
+        }
 
-    nav,
-    section,
-    aside {
-        background-color: #f4a460;
-        border-radius: 5px;
-        padding: 5px;
-        color: rgb(0, 0, 0);
-    }
+        nav,
+        section,
+        aside {
+            background-color: #f4a460;
+            border-radius: 5px;
+            padding: 5px;
+            color: rgb(0, 0, 0);
+        }
 
-    nav {
-        width: 40%;
-    }
+        nav {
+            width: 40%;
+        }
 
-    section {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        width: 100%;
-    }
+        section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+        }
 
-    h1 {
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 40px;
-        color: rgb(120, 252, 195);
-        left: 275px;
-    }
+        h1 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+            color: rgb(120, 252, 195);
+            left: 275px;
+        }
 
-    h2 {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 15px;
-        color: #78f7cd;
-    }
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #78f7cd;
+        }
 
-    #introduccion {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 16px;
-        font-weight: bold;
-        margin-bottom: 15px;
-        color: rgb(48, 21, 21);
-    }
+        #introduccion {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: rgb(48, 21, 21);
+        }
 
-    h3 {
-        color: rgb(0, 0, 0);
-    }
+        h3 {
+            color: rgb(0, 0, 0);
+        }
 
-    p {
-        text-align: justify;
-    }
+        p {
+            text-align: justify;
+        }
 
-    canvas {
-        width: 750px;
-        height: 700px;
-        margin: 20px auto;
-    }
+        canvas {
+            width: 750px;
+            height: 700px;
+            margin: 20px auto;
+        }
 
-    #carbon-calculator {
-        background-color: rgb(240, 240, 240);
-        padding: 15px;
-        border-radius: 8px;
-        max-width: 400px;
-        margin: auto;
-        text-align: center;
-    }
+        #carbon-calculator {
+            background-color: rgb(240, 240, 240);
+            padding: 15px;
+            border-radius: 8px;
+            max-width: 400px;
+            margin: auto;
+            text-align: center;
+        }
 
-    #carbon-calculator label,
-    #carbon-calculator select,
-    #carbon-calculator input {
-        margin: 10px 0;
-        display: block;
-        width: 100%;
-    }
+        #carbon-calculator label,
+        #carbon-calculator select,
+        #carbon-calculator input {
+            margin: 10px 0;
+            display: block;
+            width: 100%;
+        }
 
-    #carbon-calculator button {
-        padding: 10px 20px;
-        background-color: rgb(135, 134, 239);
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: background-color 0.3s, transform 0.3s;
-    }
+        #carbon-calculator button {
+            padding: 10px 20px;
+            background-color: rgb(135, 134, 239);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
 
-    #carbon-calculator button:hover {
-        background-color: rgb(108, 103, 211);
-        transform: translateY(-4px);
-    }
+        #carbon-calculator button:hover {
+            background-color: rgb(108, 103, 211);
+            transform: translateY(-4px);
+        }
 
-    #carbon-calculator p {
-        font-weight: bold;
-        margin-top: 15px;
-    }
+        #carbon-calculator p {
+            font-weight: bold;
+            margin-top: 15px;
+        }
 
-    #container {
-        width: 80%;
-        height: 400px;
-        position: relative;
-        margin: 0 auto;
-        border: 1px solid #ccc;
-        background-color: #fff;
-        /* Puedes cambiar este color según prefieras */
-    }
+        #container {
+            width: 80%;
+            height: 400px;
+            position: relative;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            /* Puedes cambiar este color según prefieras */
+        }
 
-    a-scene {
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        position: absolute;
-    }
+        a-scene {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
 
-    #controls {
-        background-color: rgba(64, 12, 68, 0.8);
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+        #controls {
+            background-color: rgba(64, 12, 68, 0.8);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-    .check-panel {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-    }
+        .check-panel {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
 
-    .check-panel label {
-        color: white;
-        font-weight: bold;
-        margin: 10px 0;
-    }
+        .check-panel label {
+            color: white;
+            font-weight: bold;
+            margin: 10px 0;
+        }
 
-    #container img {
-        display: none;
-        width: 400px;
-        height: auto;
-        margin-left: 10px;
-    }
+        #container img {
+            display: none;
+            width: 400px;
+            height: auto;
+            margin-left: 10px;
+        }
 
-    #container img.visible {
-        display: block;
-        padding-left: 25px;
-    }
+        #container img.visible {
+            display: block;
+            padding-left: 25px;
+        }
 
-    .info-container {
-        display: inline-block;
-        width: 100%;
-    }
+        .info-container {
+            display: inline-block;
+            width: 100%;
+        }
 
-    .hidden {
-        display: none;
-    }
+        .hidden {
+            display: none;
+        }
 
-    .visible {
-        display: block;
+        .visible {
+            display: block;
+        }
     }
 </style>
 
